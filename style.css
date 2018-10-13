@@ -1,0 +1,170 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+}
+
+.navbar-left {
+    float: left;
+    margin-left: 20px;
+    line-height: 23px;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 20px;
+    line-height: 23px;
+}
+
+.navbar div a {
+    color: rgb(58, 58, 58);
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+#apps {
+    background-image: url("./apps.png");
+    background-size: 17px 17px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    padding: 0;
+    opacity: 0.6;
+    margin: 0 5px;
+}
+
+#sign-in {
+    background-image: url("./notifications.png");
+    background-size: 23px 23px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    padding: 0;
+    opacity: 0.6;
+    margin: 0 5px;
+}
+
+.google-logo .search-bar .google-buttons {
+    display: in-block;
+}
+
+.google-logo {
+    margin-top: 195px;
+    margin-bottom: 30px;
+}
+
+.google-buttons {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: inline-block;
+}
+
+.footer-nation {
+    background-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    border-width: 1px 0 0 0;
+    height: 41px;
+}
+
+.footer-nation p {
+    color: rgb(94,94,94);
+    margin-left: 20px;
+    line-height: 41px;
+    font-size: 15px;
+}
+
+.footer-left {
+    float: left;
+    line-height: 41px;
+    margin-left: 20px;
+}
+
+.footer-right {
+    float: right;
+    line-height: 41px;
+    margin-right: 20px;
+}
+
+.footer {
+    height: 41px;
+    background-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    border-width: 1px 0 0 0;
+}
+
+.footer-left li {
+    padding-right: 15px;
+}
+
+.footer-right li {
+    padding-left: 15px;
+}
+
+.keep-you-safe {
+    margin-top: 20px;
+}
+
+#icon-privacy-image {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.google-buttons input {
+    background-color: rgb(242, 242, 242);
+    font-weight: bold;
+    opacity: 0.85;
+    border: 1px rgb(242, 242, 242) solid;
+    height: 36px;
+    padding: 0 13px;
+    margin: 0 4px;
+}
+
+.google-buttons input:hover {
+    color: black;
+    border-color: rgb(194, 193, 193)
+}
+
+.search-bar input {
+    width: 550px;
+    height: 40px;
+    border: 1px rgb(218, 218, 218) solid;
+    box-shadow: 0 3px 3px -3px gray;
+}
